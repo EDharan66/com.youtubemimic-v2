@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://appengine.google.com/ns/1.0"
+                   xsi:schemaLocation="http://appengine.google.com/ns/1.0 ">
+
+    <application>restfree-demo-project</application>
+    <module>com.resteasy</module>
+    <version>1</version>
+    <async-session-persistence enabled="true"/>
+
+    <threadsafe>true</threadsafe>
+    <sessions-enabled>true</sessions-enabled>
+    <runtime>java8</runtime>
+
+    <system-properties>
+        <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
+    </system-properties>
+
+</appengine-web-app>

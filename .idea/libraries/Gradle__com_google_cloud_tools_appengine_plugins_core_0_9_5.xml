@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.cloud.tools:appengine-plugins-core:0.9.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.cloud.tools/appengine-plugins-core/0.9.5/8b3b33031d9c07f47cd4204b5219ddee2ee417bd/appengine-plugins-core-0.9.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.cloud.tools/appengine-plugins-core/0.9.5/ed3ed921b3fa3052052bcdb896e0484c420772ec/appengine-plugins-core-0.9.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

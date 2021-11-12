@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: javax.jdo:jdo2-api:2.3-eb">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/jdo/jdo2-api/2.3-eb/jdo2-api-2.3-eb.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/jdo/jdo2-api/2.3-eb/jdo2-api-2.3-eb-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="com.youtubemimic-v2.test">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_youtubemimic_v2_test</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="com.youtubemimic-v2.test" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
