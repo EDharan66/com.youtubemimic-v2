@@ -11,10 +11,6 @@ plugins {
     id 'java'
 }
 
-group 'org.youtubemimic-resteasy'
-version '2.0-SNAPSHOT'
-
-
 repositories {
     mavenLocal()
     mavenCentral()
@@ -43,7 +39,8 @@ dependencies {
     implementation platform("com.google.cloud:libraries-bom:5.3.0")
     implementation 'com.google.cloud:google-cloud-datastore'
     implementation 'com.google.cloud:google-cloud-storage:2.2.0'
-    compile group: 'com.googlecode.objectify', name: 'objectify', version: '5.1.21'
+    implementation 'com.googlecode.objectify:objectify:6.0'
+//    compile 'com.googlecode.objectify:objectify:5.1.17'
     implementation 'jstl:jstl:1.2'
 
     testImplementation 'junit:junit:4.13.2'
@@ -71,7 +68,7 @@ map.put("GOOGLE_CLOUD_PROJECT","my-project-1507901915170")
 
 appengine {  // App Engine tasks configuration
     run {
-        port=3000
+        port=8080
         jvmFlags = ['-Xdebug', '-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005']
         environment = map
     }
@@ -81,6 +78,8 @@ appengine {  // App Engine tasks configuration
     }
 }
 
+group 'org.youtubemimic-resteasy'
+version '2.0-SNAPSHOT'
 
 sourceCompatibility = 1.8     // App Engine Flexible uses Java 8
 targetCompatibility = 1.8     // App Engine Flexible uses Java 8

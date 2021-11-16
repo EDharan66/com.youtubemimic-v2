@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.googlecode.objectify:objectify:6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.objectify/objectify/6.0/75f9eb5a20d9d842af67f7144bc45854744b62e0/objectify-6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.objectify/objectify/6.0/71b0d53b410b4da5f062f49bd00c477c94e0cfc2/objectify-6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

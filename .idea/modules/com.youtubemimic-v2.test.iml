@@ -15,13 +15,13 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="com.youtubemimic-v2.main" />
-    <orderEntry type="library" name="Gradle: com.googlecode.objectify:objectify:5.1.21" level="project" />
     <orderEntry type="library" name="Gradle: com.google.appengine:appengine-api-1.0-sdk:1.9.92" level="project" />
     <orderEntry type="library" name="Gradle: com.google.appengine:appengine-api-labs:1.9.88" level="project" />
     <orderEntry type="library" name="Gradle: com.google.api-client:google-api-client-appengine:1.27.0" level="project" />
     <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.cloud.tools:appengine-gradle-plugin:2.4.2" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-all:2.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.googlecode.objectify:objectify:6.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.cloud:google-cloud-datastore:1.102.4" level="project" />
     <orderEntry type="library" name="Gradle: com.google.cloud:google-cloud-storage:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: jstl:jstl:1.2" level="project" />
@@ -35,13 +35,14 @@
     <orderEntry type="library" name="Gradle: com.google.appengine:appengine-testing:1.9.92" level="project" />
     <orderEntry type="library" name="Gradle: com.google.appengine:appengine-api-stubs:1.9.92" level="project" />
     <orderEntry type="library" name="Gradle: com.google.appengine:appengine-tools-sdk:1.9.92" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.guava:guava:31.0.1-jre" level="project" />
     <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.api-client:google-api-client-servlet:1.27.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.api-client:google-api-client:1.32.2" level="project" />
     <orderEntry type="library" name="Gradle: com.google.oauth-client:google-oauth-client-appengine:1.27.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client-appengine:1.40.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.cloud.tools:appengine-plugins-core:0.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: net.spy:spymemcached:2.12.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: com.google.cloud:google-cloud-core-http:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.cloud.datastore:datastore-v1-proto-client:1.6.3" level="project" />
     <orderEntry type="library" name="Gradle: com.google.oauth-client:google-oauth-client:1.32.1" level="project" />
@@ -50,6 +51,7 @@
     <orderEntry type="library" name="Gradle: com.google.auth:google-auth-library-oauth2-http:1.2.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client:1.40.1" level="project" />
     <orderEntry type="library" name="Gradle: io.grpc:grpc-api:1.29.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:31.0.1-jre" level="project" />
     <orderEntry type="library" name="Gradle: com.google.api.grpc:proto-google-cloud-datastore-v1:0.85.4" level="project" />
     <orderEntry type="library" name="Gradle: com.google.api.grpc:proto-google-common-protos:2.6.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.18.1" level="project" />

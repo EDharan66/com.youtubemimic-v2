@@ -102,8 +102,7 @@
             <li class="linavcard" onclick="playlistpage()">
                 <div
                         class=" row" id="playlistNavTag"
-                        style="margin: 0px; padding-left: 15px; cursor: pointer;"
-                        onclick="playlistpage()">
+                        style="margin: 0px; padding-left: 15px; cursor: pointer;">
                     <i class="col s3 material-icons" style="margin-top: 15px;">list</i>
                     <p class="col s8" style="padding: 0;">playlist</p>
                 </div>
@@ -443,8 +442,14 @@
 
         for (var i = 0; i < videoContent[index].length; i++) {
 
+            let src;
             var item1 = resultbyVideoId.items.filter(obj => obj.id === videoContent[index][i]);
-            src = item1[0].snippet.thumbnails.medium.url;
+            if (videoContent[i].length !== 0 && item1.length !== 0) {
+                src = item1[0].snippet.thumbnails.medium.url;
+            } else {
+                src = "/images/YouTube-thumbnail.jpg";
+            }
+
 
             content = content +
                 '<div class="col s12"style="padding-right: 0px;">' +
@@ -484,8 +489,8 @@
             videoContent.push(videoarrcontent);
 
             let src;
-            if (videoContent[i].length !== 0) {
-                var item1 = resultbyVideoId.items.filter(obj => obj.id === videoContent[i][0]);
+            var item1 = resultbyVideoId.items.filter(obj => obj.id === videoContent[i][0]);
+            if (videoContent[i].length !== 0 && item1.length !== 0) {
                 src = item1[0].snippet.thumbnails.medium.url;
             } else {
 

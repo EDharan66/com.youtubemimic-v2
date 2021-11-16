@@ -17,13 +17,13 @@
           <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Gradle: com.googlecode.objectify:objectify:5.1.21" />
           <element id="library" level="project" name="Gradle: com.google.appengine:appengine-api-1.0-sdk:1.9.92" />
           <element id="library" level="project" name="Gradle: com.google.appengine:appengine-api-labs:1.9.88" />
           <element id="library" level="project" name="Gradle: com.google.api-client:google-api-client-appengine:1.27.0" />
           <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Gradle: com.google.cloud.tools:appengine-gradle-plugin:2.4.2" />
           <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-all:2.4.0" />
+          <element id="library" level="project" name="Gradle: com.googlecode.objectify:objectify:6.0" />
           <element id="library" level="project" name="Gradle: com.google.cloud:google-cloud-datastore:1.102.4" />
           <element id="library" level="project" name="Gradle: com.google.cloud:google-cloud-storage:2.2.0" />
           <element id="library" level="project" name="Gradle: jstl:jstl:1.2" />
@@ -31,13 +31,14 @@
           <element id="library" level="project" name="Gradle: org.jboss.resteasy:resteasy-jackson2-provider:3.1.4.Final" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.3" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.3" />
-          <element id="library" level="project" name="Gradle: com.google.guava:guava:31.0.1-jre" />
           <element id="library" level="project" name="Gradle: javax.inject:javax.inject:1" />
           <element id="library" level="project" name="Gradle: com.google.api-client:google-api-client-servlet:1.27.0" />
           <element id="library" level="project" name="Gradle: com.google.api-client:google-api-client:1.32.2" />
           <element id="library" level="project" name="Gradle: com.google.oauth-client:google-oauth-client-appengine:1.27.0" />
           <element id="library" level="project" name="Gradle: com.google.http-client:google-http-client-appengine:1.40.1" />
           <element id="library" level="project" name="Gradle: com.google.cloud.tools:appengine-plugins-core:0.9.5" />
+          <element id="library" level="project" name="Gradle: net.spy:spymemcached:2.12.3" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Gradle: com.google.cloud:google-cloud-core-http:2.2.0" />
           <element id="library" level="project" name="Gradle: com.google.cloud.datastore:datastore-v1-proto-client:1.6.3" />
           <element id="library" level="project" name="Gradle: com.google.oauth-client:google-oauth-client:1.32.1" />
@@ -46,6 +47,7 @@
           <element id="library" level="project" name="Gradle: com.google.auth:google-auth-library-oauth2-http:1.2.1" />
           <element id="library" level="project" name="Gradle: com.google.http-client:google-http-client:1.40.1" />
           <element id="library" level="project" name="Gradle: io.grpc:grpc-api:1.29.0" />
+          <element id="library" level="project" name="Gradle: com.google.guava:guava:31.0.1-jre" />
           <element id="library" level="project" name="Gradle: com.google.api.grpc:proto-google-cloud-datastore-v1:0.85.4" />
           <element id="library" level="project" name="Gradle: com.google.api.grpc:proto-google-common-protos:2.6.0" />
           <element id="library" level="project" name="Gradle: com.google.protobuf:protobuf-java:3.18.1" />
@@ -80,7 +82,6 @@
           <element id="library" level="project" name="Gradle: net.jcip:jcip-annotations:1.0" />
           <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.9" />
-          <element id="library" level="project" name="Gradle: com.google.errorprone:error_prone_annotations:2.7.1" />
           <element id="library" level="project" name="Gradle: com.google.oauth-client:google-oauth-client-servlet:1.27.0" />
           <element id="library" level="project" name="Gradle: javax.servlet:servlet-api:2.5" />
           <element id="library" level="project" name="Gradle: javax.jdo:jdo2-api:2.3-eb" />
@@ -89,6 +90,7 @@
           <element id="library" level="project" name="Gradle: org.glassfish:javax.json:1.0.4" />
           <element id="library" level="project" name="Gradle: org.apache.commons:commons-compress:1.21" />
           <element id="library" level="project" name="Gradle: com.google.http-client:google-http-client-protobuf:1.35.0" />
+          <element id="library" level="project" name="Gradle: com.google.errorprone:error_prone_annotations:2.7.1" />
           <element id="library" level="project" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.18" />
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.11" />
