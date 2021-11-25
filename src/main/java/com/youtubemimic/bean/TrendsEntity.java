@@ -4,7 +4,7 @@ import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
 import com.googlecode.objectify.annotation.Index;
 
-import java.util.List;
+import java.util.Set;
 
 @Entity
 public class TrendsEntity {
@@ -13,10 +13,13 @@ public class TrendsEntity {
     Long id;
     @Index String videoId;
     @Index
-    List<UserViewDetails> userDetails;
-    @Index String trendsCount;
+    Set<UserViewDetails> userDetails;
+    @Index int trendsCount;
 
-    public TrendsEntity(Long id, String videoId, List<UserViewDetails> userDetails, String trendsCount) {
+    public TrendsEntity() {
+    }
+
+    public TrendsEntity(Long id, String videoId, Set<UserViewDetails> userDetails, int trendsCount) {
         this.id = id;
         this.videoId = videoId;
         this.userDetails = userDetails;
@@ -39,19 +42,29 @@ public class TrendsEntity {
         this.videoId = videoId;
     }
 
-    public List<UserViewDetails> getUserDetails() {
+    public Set<UserViewDetails> getUserDetails() {
         return userDetails;
     }
 
-    public void setUserDetails(List<UserViewDetails> userDetails) {
+    public void setUserDetails(Set<UserViewDetails> userDetails) {
         this.userDetails = userDetails;
     }
 
-    public String getTrendsCount() {
+    public int getTrendsCount() {
         return trendsCount;
     }
 
-    public void setTrendsCount(String trendsCount) {
+    public void setTrendsCount(int trendsCount) {
         this.trendsCount = trendsCount;
+    }
+
+    @Override
+    public String toString() {
+        return "TrendsEntity{" +
+                "id=" + id +
+                ", videoId='" + videoId + '\'' +
+                ", userDetails=" + userDetails +
+                ", trendsCount='" + trendsCount + '\'' +
+                '}';
     }
 }

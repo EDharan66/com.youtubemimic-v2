@@ -21,7 +21,7 @@ public class YouTubeMimicUtils {
         writeResponse(response, new ApiResponce(status_code, message, status, details), statusCode);
     }
 
-    public static void writeResponse(HttpServletResponse response, Object resObject, int statusCode) {
+    public static void  writeResponse(HttpServletResponse response, Object resObject, int statusCode) {
         try {
             PrintWriter out = response.getWriter();
             response.setStatus(statusCode);

@@ -1,4 +1,4 @@
-package com.youtubemimic.services.sessions;
+package com.youtubemimic.services.filter;
 
 import com.youtubemimic.annotations.UserIdentifier;
 

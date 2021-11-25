@@ -110,6 +110,9 @@
         </ul>
     </div>
     <div class="col s10 offset-s2" id="mainPlatform">
+        <div class="row" id="trends-content">
+
+        </div>
         <div class="row" id="videoPlayContent">
             <div id="videoCardContent"></div>
         </div>
@@ -212,6 +215,35 @@
     var playlists = {};
     var videoPlaylistId = "";
     var videoContent = [];
+
+    var setTrends = (videoId) => {
+        try {
+
+            utils.getHTMLFromUrl('/api/v1/youtube/trends?videoId=' + videoId, "POST").then((res) => {
+                console.log("success post trend call");
+            }, (res) => {
+            });
+        } catch (e) {
+            console.error(e)
+        }
+
+        return false;
+    }
+
+    var getTrends = () => {
+        try {
+
+            utils.getHTMLFromUrl('/api/v1/youtube/trends', "GET").then((res) => {
+                console.log("success get trend call");
+                console.log(res);
+            }, (res) => {
+            });
+        } catch (e) {
+            console.error(e)
+        }
+
+        return false;
+    }
 
     var verticalCard = () => {
         let content = "";
@@ -332,6 +364,7 @@
     var item;
 
     var democall = (id) => {
+        setTrends(id);
         item = result.items.filter(obj => obj.id.videoId === id);
         const date = item[0].snippet.publishedAt.split("T");
         var videoCondent = '<div class="col s8" style="margin-top: 15px;">' +
@@ -402,6 +435,7 @@
     }
 
     var playvideoCall = (id, index) => {
+        setTrends(id);
         item = resultbyVideoId.items.filter(obj => obj.id === id);
         const date = item[0].snippet.publishedAt.split("T");
         var videoCondent = '<div class="col s8" style="margin-top: 15px;">' +

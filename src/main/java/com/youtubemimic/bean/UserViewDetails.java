@@ -5,6 +5,9 @@ public class UserViewDetails {
     int count;
     String lastSeen;
 
+    public UserViewDetails() {
+    }
+
     public UserViewDetails(Long userId, int count, String lastSeen) {
         this.userId = userId;
         this.count = count;
@@ -33,5 +36,14 @@ public class UserViewDetails {
 
     public void setLastSeen(String lastSeen) {
         this.lastSeen = lastSeen;
+    }
+
+    @Override
+    public String toString() {
+        return "UserViewDetails{" +
+                "userId=" + userId +
+                ", count=" + count +
+                ", lastSeen='" + lastSeen + '\'' +
+                '}';
     }
 }
